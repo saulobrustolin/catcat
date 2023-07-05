@@ -1,6 +1,8 @@
 .image{
     width: 250px;
     height: 250px;
+
+    border-radius: 5px;
 }
 
 .image:hover{
@@ -8,8 +10,6 @@
     
     width: 275px;
     height: 275px;
-
-    border-radius: 5px;
 
     box-shadow: 0 0 25px #C9C9C7;
 }
