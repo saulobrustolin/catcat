@@ -1,0 +1,61 @@
+.image{
+    width: 250px;
+    height: 250px;
+}
+
+.image:hover{
+    transition: 1s;
+    
+    width: 275px;
+    height: 275px;
+
+    box-shadow: 0 0 25px #C9C9C7;
+}
+
+.contact ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+
+    height: 10vh;
+    width: 100vw;
+}
+
+.image-icon{
+    width: 30px;
+    height: 30px;
+
+    padding: 5px;
+
+    opacity: 25%;
+}
+
+.image-icon:hover{
+    transition: 1s;
+
+    opacity: 100%;
+}
+
+.image-icon:not(:hover) {
+    transition: 1s;
+
+    opacity: 25%;
+  }
+
+.carinho{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 80vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
